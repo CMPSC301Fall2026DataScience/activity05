@@ -24,8 +24,9 @@ Note: the expiration date is the last date you can submit your work for a grade.
   - [Learning Objectives](#learning-objectives)
   - [Activity Goals](#activity-goals)
   - [Instructions](#instructions)
-    - [Setting Up R (Do This First!)](#setting-up-r-do-this-first)
-    - [Working the Script](#working-the-script)
+    - [Setting Up R](#setting-up-r)
+    - [Your Working Directory](#your-working-directory)
+    - [Executing the Script](#executing-the-script)
     - [The Shiny App](#the-shiny-app)
   - [Deliverable](#deliverable)
   - [Submission](#submission)
@@ -39,10 +40,11 @@ such as the formatting of this `README.md` file and other tasks.
 
 ## Overview
 
-Where can you grab a latte, and where would you walk for twenty minutes and
-find nothing but a vending machine? In this 60-minute activity you will make
-maps of coffee shops in a small, **fictional** college town (the coordinates
-sit in a State College, PA sized box, but every shop and landmark is made
+*Where could you grab a latte, and where could you walk for a fixed time to locate coffee places?*
+
+In this 60-minute activity you will make maps of coffee
+shops in a small, **fictional** college town (the coordinates sit in a
+State College, PA sized box, but every shop and landmark is made
 up). You will start with a script that is full of bugs, fix them one at a
 time, and then use your working maps to hunt for **coffee oases** (places
 where shops pile up) and **coffee deserts** (places with no coffee at all).
@@ -62,11 +64,11 @@ cutoffs, and what data you left out). Dun-Da-Da!
 
 By completing this activity, you will be able to:
 
-1. **Debug R code** - use error messages and hints to fix misspelled names, wrong capitalization, misplaced punctuation, and missing arguments
-2. **Map point data** - plot longitude and latitude with `ggplot()` and `coord_quickmap()`
-3. **Summarize spatial data** - use `group_by()`, `summarize()`, and `count()` to compare neighborhoods and grid cells
-4. **Classify places** - use `case_when()` to label map cells as deserts, typical, or oases
-5. **Read a map critically** - explain what a map shows, what it hides, and how your choices change the story
+1. **Debug R code** - we will use error messages and hints to fix misspelled names, wrong capitalization, misplaced punctuation, and missing arguments
+2. **Map point data** - then we plot longitude and latitude with `ggplot()` and `coord_quickmap()`
+3. **Summarize spatial data** - we will use `group_by()`, `summarize()`, and `count()` to compare neighborhoods and grid cells
+4. **Classify places** - to keep out work organized, we will use `case_when()` to label map cells as deserts, typical, or oases
+5. **Read a map critically** - finally, we will explain what a map shows, what it hides, and how your choices change the story
 
 ![--- --- --- --- --- --- --- --- ---](graphics/div_bar.png)
 
@@ -78,9 +80,9 @@ This activity has three parts:
 - **Part 2: Study the Maps (about 20 minutes)** - once the script runs, use the density map, zone map, interactive map, and the made-up city maps (Part 8 of the script, with roads and buildings) to answer the reflection questions.
 - **Part 3: Play with the Shiny App (about 15 minutes)** - `shiny_app/app.R` is already finished. Use it to answer the last two reflection questions.
 
-The data live in `data/`:
+The data is located in `data/`:
 
-| File | What is in it |
+| File | Types of data in the columns|
 | --- | --- |
 | `coffee_shops.csv` | 215 shops: `shop_id`, `name`, `lon`, `lat`, `rating`, `chain_type`, `neighborhood` |
 | `landmarks.csv` | 8 places (campus, hospital, homes, and so on): `landmark`, `type`, `lon`, `lat` |
@@ -89,31 +91,35 @@ The data live in `data/`:
 
 ## Instructions
 
-### Setting Up R (Do This First!)
+### Setting Up R 
 
-**IMPORTANT:** Install the packages once before starting:
+If you have not already setup your programming environment, then read on. Otherwise, skip this section!
+
+The packages to install for this coded project are listed below.
 
 ```r
 install.packages(c("tidyverse", "plotly", "shiny"))
 ```
 
-Note: no other project setup (no `uv`, no virtual environment) is required for R.
+### Your Working Directory
+
+Note: no other project setup (no `uv`, no virtual environment) is necessary for R.
 Also, open the **activity folder** as your RStudio project or working directory
-so paths such as `data/coffee_shops.csv` work. You can check with `getwd()`.
+so paths such as `data/coffee_shops.csv` work. You can check your working path
+with `getwd()`.
 
-### Working the Script
+### Executing the Script
 
-*As you write your code, please refer to this week's slides on `ggplot()`, `plotly`, and the tidyverse.*
+*As you write your code, please refer to this week's slides on `ggplot()`, `plotly`, and the tidyverse package.*
 
 1. **Open** `src/coffee_maps.R` in RStudio and add your name at the top.
 2. **Run** the script one line (or one plot block) at a time (`Ctrl+Enter` / `Cmd+Return`).
 3. **Read** the error message when R complains. Find the bug comment (`Bug 1` to `Bug 10`) that matches it, and read the hint.
 4. **Fix** the code and rerun it. Once it works, **delete** the bug comment and its hint, including the `TODO`.
-5. **Look** at each map after it draws. Ask yourself what the map says about where coffee is (and is not).
+5. **Look** at each map after it draws. Ask yourself what the map says about where coffee is (and where it is not).
 6. **Answer** Part A and Part B of `writing/reflection.md` as you go.
 
-There are 10 bugs and they are in order, so you will meet them one by one.
-Some bugs are simple typos; others hide in plain sight!
+There are 10 ordered bugs in the code that you will meet one by one. Some bugs are simple typographical errors while others may be hidden in plain sight (such as forgotten parameter names).
 
 ### The Shiny App
 
@@ -124,11 +130,11 @@ The app measures the walking time from every spot on the map to the nearest
 coffee shop. Move the sliders to see which places are "served" and which are
 "underserved."
 
-- Choose the **longest walk** you will accept (3 to 30 minutes)
+- Choose the **longest walk** that you could accept (3 to 30 minutes)
 - Keep only shops with a minimum **rating**
 - Count only certain **shop types** (national chains, regional chains, independents)
-- Read the summary table and the landmark table to see who is left out
-- Click **Show Code** at any time to reveal the R code behind the map and tables
+- Read the summary table and the landmark table to see which shops were left out
+- Click **Show Code** at any time to reveal the R code behind the map and tables. Remember you can use this code later after modifying for your own data requirements. Neat-oh.
 
 Then answer Part C of `writing/reflection.md`.
 
@@ -244,4 +250,4 @@ asking "what does this map show, what does it hide, and would I make a
 different decision if I had drawn it a different way?" *But you already know
 all this, right!?*
 
-Now, go do data science!!
+Now, go do some data science!!
