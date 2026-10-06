@@ -22,11 +22,26 @@ lat_min <-  40.76; lat_max <-  40.83
 libary(tidyverse)
 library(plotly)
 
-# TODO (Bug 2): R says `'data/Coffee_Shops.csv' does not exist`.
+
+# Note there are different ways to load the data. You can use `file.choose()` to
+# select the file interactively, or you can hard-code the path to the file. 
+# The following lines are commented out because they are not needed if you hard-code the paths.
+#shops     <- read_csv("../data/coffee-shops.csv")
+#landmarks <- read_csv("../data/myLandmarks.csv")
+
+# TODO (Bug 2): R says `'data/Coffee-Shops.csv' does not exist`.
 # Hint: file names are case sensitive. Look in the data/ folder to see the
-# exact name.
-shops     <- read_csv("data/Coffee_Shops.csv")
-landmarks <- read_csv("data/landmarks.csv")
+# exact name. Otherwise, you could use `file.choose()` to select the file interactively but that
+# would take a buncha time to click through.
+
+#fname_shops <- file.choose()
+fname_shops <- "../data/Coffee-Shops.csv"
+
+#fname_landmarks <- file.choose()
+fname_landmarks <- "../data/Landmarks.csv"
+
+shops     <- read_csv(fname_shops)
+landmarks <- read_csv(fname_landmarks)
 
 # TODO (Bug 3): R says `object 'Shops' not found`.
 # Hint: R is case sensitive. What did you name the data frame above?
