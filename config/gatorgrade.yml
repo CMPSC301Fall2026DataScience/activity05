@@ -1,0 +1,46 @@
+# --> check the technical writing for various characteristics
+- writing/reflection.md:
+  - description: Ensure that reflection.md file exists in the writing/ directory
+    check: ConfirmFileExists
+  - description: Add your name to writing/reflection.md, then delete the 'Add your name here' placeholder
+    check: MatchFileFragment
+    options:
+      fragment: "Add Your Name Here"
+      count: 0
+      exact: true
+  - description: Ensure no TODO items remain in the reflection
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+
+# --> check the coffee maps script exists, is complete, and runs
+- ./src/coffee_maps.R:
+  - description: Ensure that coffee_maps.R file exists
+    check: ConfirmFileExists
+  - description: Add your name to coffee_maps.R, then delete the 'Add Your Name Here' placeholder
+    check: MatchFileFragment
+    options:
+      fragment: "Add Your Name Here"
+      count: 0
+      exact: true
+  - description: Ensure no TODO items remain in coffee_maps.R
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+  # - description: Ensure coffee_maps.R runs from start to finish without errors
+  #   command: Rscript -e "source('src/coffee_maps.R')"
+
+# --> check the data files were not changed or removed
+- ./data/coffee_shops.csv:
+  - description: Ensure that coffee_shops.csv file exists in the data/ directory
+    check: ConfirmFileExists
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (3) in repository
+  check: CountCommits
+  options:
+    count: 3

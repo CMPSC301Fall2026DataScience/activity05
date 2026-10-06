@@ -1,0 +1,216 @@
+shop_id,name,lon,lat,rating,chain_type,neighborhood
+1,Quiet Perk,-77.85902,40.79247,3.9,National chain,Downtown
+2,Quiet Pour,-77.87143,40.79485,3.9,Regional chain,Downtown
+3,Little Cup,-77.85884,40.79118,3.9,National chain,Downtown
+4,Happy Crema,-77.8583,40.78603,4.7,National chain,Downtown
+5,Nittany Pour,-77.86066,40.79228,4.5,National chain,Downtown
+6,Daily Bean,-77.85721,40.79202,4.5,National chain,Downtown
+7,Happy Pour,-77.86001,40.78817,4.2,Independent,Downtown
+8,Bright Pour,-77.8659,40.79108,3.9,Independent,Downtown
+9,Happy Cup,-77.86041,40.79662,3.1,National chain,Downtown
+10,Cozy Cup,-77.85736,40.78692,4.5,Independent,Downtown
+11,Quiet Crema,-77.85197,40.79817,3.5,Independent,Downtown
+12,Happy Brew,-77.85638,40.79495,3.7,National chain,Downtown
+13,Lion Brew,-77.86051,40.79385,4.4,Regional chain,Downtown
+14,Bright Bean,-77.862,40.78839,4.2,Independent,Downtown
+15,Bright Drip,-77.86337,40.79364,4.4,Independent,Downtown
+16,Morning Press,-77.85844,40.79117,4,Independent,Downtown
+17,Happy Steam,-77.86031,40.79683,3.9,Regional chain,Downtown
+18,Morning Steam,-77.85795,40.79809,4,Regional chain,Downtown
+19,Old Perk,-77.86112,40.78594,4.5,Independent,Downtown
+20,Blue Roast,-77.85818,40.79841,4.3,Independent,Campus Edge
+21,Quiet Roast,-77.86362,40.78814,4,Regional chain,Downtown
+22,Lucky Press,-77.85858,40.78707,4.8,Regional chain,Downtown
+23,Cozy Grind,-77.85651,40.79374,4,Independent,Downtown
+24,Little Steam,-77.86032,40.79127,3.9,National chain,Downtown
+25,Lion Mug,-77.86681,40.78966,4.2,Regional chain,Downtown
+26,Lion Steam,-77.85821,40.79154,4.2,Independent,Downtown
+27,Lucky Perk,-77.86642,40.79463,4.2,Independent,Downtown
+28,Little Drip,-77.85637,40.7909,3.2,Independent,Downtown
+29,Cozy Pour,-77.85765,40.7955,3.7,Independent,Downtown
+30,Cozy Roast,-77.86424,40.79035,4.3,Regional chain,Downtown
+31,Quiet Grind,-77.86134,40.79458,4.2,Independent,Downtown
+32,Little Cup,-77.85486,40.79043,4.3,Regional chain,Downtown
+33,Blue Steam,-77.86076,40.78987,4.1,Regional chain,Downtown
+34,Lion Bean,-77.85892,40.79779,4.4,Independent,Downtown
+35,Lion Steam,-77.86042,40.79052,3.6,Regional chain,Downtown
+36,Blue Perk,-77.85969,40.80033,3.2,Independent,Campus Edge
+37,Golden Roast,-77.85985,40.79196,3.1,Regional chain,Downtown
+38,Happy Bean,-77.85981,40.79407,4.3,Independent,Downtown
+39,Nittany Roast,-77.86198,40.78726,4.2,Independent,Downtown
+40,Little Mug,-77.85942,40.79795,4.4,Independent,Campus Edge
+41,Cozy Perk,-77.86183,40.79488,5,Independent,Downtown
+42,Copper Grind,-77.85717,40.79201,4.2,Independent,Downtown
+43,Morning Steam,-77.86279,40.7987,4.4,Independent,Campus Edge
+44,Golden Mug,-77.86389,40.79574,4.3,Independent,Downtown
+45,Bright Bean,-77.85941,40.79805,3.9,Independent,Campus Edge
+46,Golden Bean,-77.86494,40.79584,3.9,Regional chain,Downtown
+47,Blue Pour,-77.86288,40.79132,3.8,Independent,Downtown
+48,Blue Roast,-77.85735,40.79829,4.7,Independent,Downtown
+49,Golden Bean,-77.85965,40.79465,4,Independent,Downtown
+50,Cozy Drip,-77.85288,40.79455,3.9,Independent,Downtown
+51,Copper Steam,-77.85798,40.78743,3.7,Regional chain,Downtown
+52,Blue Drip,-77.85705,40.78978,4.6,Independent,Downtown
+53,Bright Drip,-77.86579,40.78646,4.4,Independent,Downtown
+54,Lucky Grind,-77.8543,40.79032,4,Independent,Downtown
+55,Blue Bean,-77.86064,40.80229,3.8,Independent,Campus Edge
+56,Lucky Press,-77.86162,40.78904,4.5,Independent,Downtown
+57,Quiet Cup,-77.85356,40.80425,4.4,Independent,Campus Edge
+58,Old Perk,-77.86296,40.7955,3.3,Regional chain,Downtown
+59,Happy Roast,-77.85644,40.79185,3.8,National chain,Downtown
+60,Blue Bean,-77.85493,40.79272,3.9,Independent,Downtown
+61,Copper Pour,-77.85518,40.7949,3.4,Independent,Downtown
+62,Lucky Perk,-77.85996,40.79059,4.3,Independent,Downtown
+63,Quiet Cup,-77.86008,40.79159,3.9,Independent,Downtown
+64,Lucky Mug,-77.85909,40.78743,4.1,Regional chain,Downtown
+65,Morning Crema,-77.86918,40.79741,3.9,National chain,Campus Edge
+66,Copper Bean,-77.85664,40.79092,4.5,Regional chain,Downtown
+67,Morning Bean,-77.85963,40.79295,4.1,Independent,Downtown
+68,Blue Crema,-77.86601,40.79384,4.2,Independent,Downtown
+69,Daily Roast,-77.86329,40.79064,4.5,Independent,Downtown
+70,Daily Grind,-77.86213,40.7934,3.4,Independent,Downtown
+71,Happy Perk,-77.86112,40.80528,4.2,Independent,Campus Edge
+72,Happy Roast,-77.86066,40.80243,4,National chain,Campus Edge
+73,Little Brew,-77.86645,40.80077,3.6,Independent,Campus Edge
+74,Happy Perk,-77.86583,40.80088,4.7,National chain,Campus Edge
+75,Lion Steam,-77.85841,40.80408,3.8,Regional chain,Campus Edge
+76,Copper Grind,-77.85134,40.8043,3.6,Independent,Campus Edge
+77,Lion Mug,-77.86007,40.805,4.3,Regional chain,Campus Edge
+78,Bright Steam,-77.86416,40.80181,4.5,National chain,Campus Edge
+79,Cozy Steam,-77.85837,40.7963,4,Independent,Downtown
+80,Cozy Steam,-77.86465,40.80356,4.4,Independent,Campus Edge
+81,Cozy Steam,-77.86308,40.80292,3.8,Independent,Campus Edge
+82,Lucky Brew,-77.86619,40.79995,4,National chain,Campus Edge
+83,Lucky Pour,-77.86357,40.8035,3.6,Independent,Campus Edge
+84,Little Grind,-77.85716,40.80472,3.9,National chain,Campus Edge
+85,Daily Crema,-77.86054,40.80445,4,Independent,Campus Edge
+86,Golden Press,-77.85786,40.8029,4.1,Regional chain,Campus Edge
+87,Little Roast,-77.86179,40.79729,4.4,National chain,Downtown
+88,Blue Pour,-77.86858,40.80156,4.5,Independent,Campus Edge
+89,Daily Press,-77.86394,40.80618,3.8,Regional chain,Campus Edge
+90,Old Crema,-77.86345,40.80049,4.3,Independent,Campus Edge
+91,Quiet Grind,-77.86214,40.80323,4,Independent,Campus Edge
+92,Little Grind,-77.85569,40.80404,3.5,Independent,Campus Edge
+93,Old Brew,-77.86428,40.80004,4.9,Independent,Campus Edge
+94,Quiet Crema,-77.85835,40.8044,4.2,National chain,Campus Edge
+95,Blue Roast,-77.86754,40.8057,4,Independent,Campus Edge
+96,Cozy Press,-77.86105,40.80007,4.7,Independent,Campus Edge
+97,Cozy Cup,-77.86144,40.79808,3.1,Independent,Campus Edge
+98,Morning Crema,-77.86014,40.80217,3.8,Regional chain,Campus Edge
+99,Old Crema,-77.86097,40.80108,3.6,Independent,Campus Edge
+100,Little Perk,-77.8595,40.79941,4.6,Independent,Campus Edge
+101,Cozy Bean,-77.86339,40.79695,3.8,Independent,Downtown
+102,Morning Grind,-77.86303,40.8003,3.9,Regional chain,Campus Edge
+103,Nittany Drip,-77.86242,40.80313,3.8,National chain,Campus Edge
+104,Lion Grind,-77.86138,40.80247,4.6,Independent,Campus Edge
+105,Copper Roast,-77.85686,40.79752,3.9,Independent,Downtown
+106,Daily Press,-77.87063,40.80616,4,Independent,Campus Edge
+107,Old Drip,-77.86174,40.79663,4.1,Regional chain,Downtown
+108,Little Drip,-77.86601,40.80152,4.8,National chain,Campus Edge
+109,Lucky Brew,-77.86323,40.80007,4.2,Independent,Campus Edge
+110,Little Grind,-77.85723,40.80397,4.3,National chain,Campus Edge
+111,Old Mug,-77.86202,40.80047,4.1,Independent,Campus Edge
+112,Copper Cup,-77.86496,40.80415,4.8,Independent,Campus Edge
+113,Lion Bean,-77.8612,40.80243,3.3,Independent,Campus Edge
+114,Cozy Cup,-77.86473,40.79789,3.8,Independent,Campus Edge
+115,Old Bean,-77.86316,40.80072,4.8,Independent,Campus Edge
+116,Lion Roast,-77.8993,40.79386,4.1,Regional chain,Westgate Plaza
+117,Quiet Crema,-77.89562,40.79171,4.9,National chain,Westgate Plaza
+118,Morning Roast,-77.89817,40.80445,4.4,National chain,Westgate Plaza
+119,Copper Cup,-77.89237,40.79947,4,National chain,Westgate Plaza
+120,Little Grind,-77.89571,40.78935,3.7,Independent,Westgate Plaza
+121,Happy Pour,-77.896,40.80365,4,National chain,Westgate Plaza
+122,Lion Roast,-77.8929,40.79808,4.4,National chain,Westgate Plaza
+123,Nittany Grind,-77.89387,40.80069,4.3,Regional chain,Westgate Plaza
+124,Cozy Bean,-77.88861,40.79327,3.9,Regional chain,Westgate Plaza
+125,Lucky Crema,-77.88979,40.78829,3.8,National chain,Westgate Plaza
+126,Copper Mug,-77.88998,40.80289,3.7,National chain,Westgate Plaza
+127,Quiet Cup,-77.89478,40.79639,3.5,Regional chain,Westgate Plaza
+128,Cozy Pour,-77.89223,40.78661,3.9,Independent,Westgate Plaza
+129,Cozy Steam,-77.89397,40.79535,4.1,National chain,Westgate Plaza
+130,Quiet Drip,-77.8906,40.79327,4.3,National chain,Westgate Plaza
+131,Morning Steam,-77.88934,40.8015,3.7,Regional chain,Westgate Plaza
+132,Little Perk,-77.89163,40.79293,4,National chain,Westgate Plaza
+133,Blue Perk,-77.89248,40.79029,4.2,National chain,Westgate Plaza
+134,Little Grind,-77.89861,40.79806,4.1,Regional chain,Westgate Plaza
+135,Quiet Grind,-77.89508,40.79537,5,National chain,Westgate Plaza
+136,Lion Cup,-77.88945,40.7932,4.3,National chain,Westgate Plaza
+137,Nittany Bean,-77.89663,40.79342,3.6,National chain,Westgate Plaza
+138,Old Perk,-77.895,40.79333,3.6,Independent,Westgate Plaza
+139,Happy Bean,-77.88767,40.78346,4.6,Independent,Westgate Plaza
+140,Copper Grind,-77.89565,40.79451,3.8,Regional chain,Westgate Plaza
+141,Lion Mug,-77.81858,40.78364,4.7,National chain,Route 322 Strip
+142,Lion Press,-77.81193,40.77342,3.7,National chain,Route 322 Strip
+143,Morning Pour,-77.81712,40.77294,3.6,National chain,Route 322 Strip
+144,Old Bean,-77.81891,40.77538,3.8,Regional chain,Route 322 Strip
+145,Morning Mug,-77.81986,40.7711,4.4,National chain,Route 322 Strip
+146,Bright Roast,-77.82571,40.77991,3.1,National chain,Route 322 Strip
+147,Bright Roast,-77.8303,40.76807,4.1,National chain,Route 322 Strip
+148,Copper Grind,-77.82297,40.77059,4.2,National chain,Route 322 Strip
+149,Bright Brew,-77.82354,40.77747,3.8,National chain,Route 322 Strip
+150,Happy Bean,-77.81811,40.77209,3.8,National chain,Route 322 Strip
+151,Quiet Brew,-77.83339,40.77665,4.7,National chain,Route 322 Strip
+152,Nittany Crema,-77.82792,40.77474,4.2,Regional chain,Route 322 Strip
+153,Morning Press,-77.82724,40.77679,4.1,Regional chain,Route 322 Strip
+154,Lucky Crema,-77.81908,40.77664,3.9,National chain,Route 322 Strip
+155,Bright Press,-77.83404,40.77487,3.7,National chain,Route 322 Strip
+156,Blue Perk,-77.83722,40.77581,3.7,National chain,Route 322 Strip
+157,Lion Bean,-77.83379,40.77538,4.2,Independent,Route 322 Strip
+158,Quiet Crema,-77.82021,40.77961,4.3,National chain,Route 322 Strip
+159,Blue Roast,-77.82097,40.77412,3.4,National chain,Route 322 Strip
+160,Lucky Drip,-77.83237,40.77345,4.5,Independent,Route 322 Strip
+161,Golden Bean,-77.8243,40.77574,3.9,Independent,Route 322 Strip
+162,Nittany Steam,-77.81684,40.77769,4,Regional chain,Route 322 Strip
+163,Copper Steam,-77.829,40.77951,4.3,National chain,Route 322 Strip
+164,Happy Cup,-77.81791,40.77656,3.7,Independent,Route 322 Strip
+165,Quiet Press,-77.82355,40.78396,3.5,Regional chain,Route 322 Strip
+166,Quiet Brew,-77.82536,40.76806,4,Regional chain,Route 322 Strip
+167,Morning Cup,-77.82671,40.77474,3.5,National chain,Route 322 Strip
+168,Happy Cup,-77.83274,40.77679,4.6,Independent,Route 322 Strip
+169,Little Steam,-77.81842,40.78856,4,National chain,Route 322 Strip
+170,Old Press,-77.82219,40.77509,4.6,Regional chain,Route 322 Strip
+171,Quiet Brew,-77.87405,40.7682,4.3,Regional chain,Hospital Row
+172,Cozy Brew,-77.86952,40.76649,3.7,Regional chain,Hospital Row
+173,Quiet Steam,-77.86767,40.77996,4.2,Regional chain,Hospital Row
+174,Little Roast,-77.86983,40.77455,4,National chain,Hospital Row
+175,Little Steam,-77.8659,40.76504,3.8,Regional chain,Hospital Row
+176,Lion Drip,-77.86666,40.7715,4.5,National chain,Hospital Row
+177,Morning Press,-77.8735,40.76872,4,National chain,Hospital Row
+178,Quiet Brew,-77.87476,40.7705,4.2,Independent,Hospital Row
+179,Little Steam,-77.87399,40.76121,3.5,National chain,Hospital Row
+180,Bright Steam,-77.87038,40.76556,4.1,Independent,Hospital Row
+181,Copper Grind,-77.8733,40.77311,4.7,National chain,Hospital Row
+182,Quiet Pour,-77.87066,40.76972,4.7,National chain,Hospital Row
+183,Bright Steam,-77.91658,40.7912,4.3,National chain,Westgate Plaza
+184,Blue Steam,-77.8774,40.79268,4.6,Independent,Downtown
+185,Cozy Pour,-77.80611,40.812,4,National chain,Northeast Hills
+186,Copper Crema,-77.82097,40.76258,4.1,Independent,Route 322 Strip
+187,Cozy Drip,-77.88622,40.8023,4.6,Regional chain,Westgate Plaza
+188,Copper Grind,-77.85598,40.8098,4.1,Regional chain,Campus Edge
+189,Daily Drip,-77.89165,40.78571,4,Independent,Westgate Plaza
+190,Old Crema,-77.80065,40.80484,4.3,Independent,Northeast Hills
+191,Daily Perk,-77.84404,40.78653,3.1,National chain,Downtown
+192,Daily Roast,-77.85306,40.82838,3.3,National chain,Campus Edge
+193,Blue Grind,-77.83793,40.80685,4.9,Independent,Northeast Hills
+194,Lucky Bean,-77.88836,40.82359,4.2,National chain,Northwest Ridge
+195,Golden Crema,-77.84905,40.79515,3.9,Regional chain,Downtown
+196,Old Bean,-77.88804,40.7691,4.1,Independent,Southwest Meadows
+197,Lucky Drip,-77.86264,40.79133,3.8,Independent,Downtown
+198,Little Pour,-77.8054,40.82525,4.1,Regional chain,Northeast Hills
+199,Lion Cup,-77.91688,40.82449,4.2,Independent,Northwest Ridge
+200,Lucky Press,-77.85747,40.80381,3.7,National chain,Campus Edge
+201,Old Crema,-77.82989,40.78509,3.9,National chain,Route 322 Strip
+202,Quiet Press,-77.80271,40.76666,3.9,National chain,Route 322 Strip
+203,Quiet Grind,-77.86044,40.78787,4.3,National chain,Downtown
+204,Blue Perk,-77.88721,40.81402,4.3,Regional chain,Northwest Ridge
+205,Blue Roast,-77.88462,40.81921,4.2,Regional chain,Northwest Ridge
+206,Happy Perk,-77.80279,40.8117,4.6,National chain,Northeast Hills
+207,Lucky Grind,-77.89143,40.82444,4.3,Independent,Northwest Ridge
+208,Copper Press,-77.80895,40.81961,4.4,Independent,Northeast Hills
+209,Nittany Pour,-77.8897,40.77498,3.9,Independent,Southwest Meadows
+210,Lion Roast,-77.8858,40.80935,3.8,Regional chain,Westgate Plaza
+211,Happy Press,-77.84615,40.81759,3.5,Independent,Northeast Hills
+212,Lion Roast,-77.87368,40.78107,4.1,Independent,Hospital Row
+213,Daily Steam,-77.82301,40.79782,5,Regional chain,Northeast Hills
+214,Little Pour,-77.81211,40.79983,3.9,National chain,Northeast Hills
+215,Cozy Bean,-77.84261,40.77972,3.7,National chain,Route 322 Strip
