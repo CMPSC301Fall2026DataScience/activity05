@@ -3,6 +3,7 @@
 ## Coffee Deserts and Oases: Mapping Coffee Shops
 
 Name: Add Your Name Here
+
 Date: TODO
 
 ## Instructions
