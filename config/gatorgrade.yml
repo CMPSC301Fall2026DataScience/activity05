@@ -38,6 +38,9 @@
 - ./data/coffee_shops.csv:
   - description: Ensure that coffee_shops.csv file exists in the data/ directory
     check: ConfirmFileExists
+- ./data/landmarks.csv:
+  - description: Ensure that landmarks.csv file exists in the data/ directory
+    check: ConfirmFileExists
 
 # count number of commits in the GitHub repository
 - description: Have at least a specific minimum number of commits (3) in repository
