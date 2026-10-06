@@ -35,7 +35,7 @@ Note: the expiration date is the last date you can submit your work for a grade.
   - [Learning Extensions (Optional)](#learning-extensions-optional)
 
 Another note: parts of this activity were completed using Claude,
-such as the formatting of this `README.md` file.
+such as the formatting of this `README.md` file and other tasks.
 
 ## Overview
 
